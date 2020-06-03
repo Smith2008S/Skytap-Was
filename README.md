@@ -8,7 +8,7 @@ Indice
 
 ## Instalación del IBM Instalation Manager: 🚀
 
-### Descargue a la maquina Ubuntu el instalador de IBM IM
+#### Para la correcta instalación del IBM IM en ubuntu debemos seguir los siguientes pasos.
 
 _1. Inicialmente debemos descargar el instalador del IBM IM, y lo podemos hacer desde el siguiente link:_
 ```
