@@ -121,36 +121,39 @@ sudo ./opt/IBM/InstallationManager/eclipce/launcher
 _6. Teniendo abierta la interfaz grafica del IBM IM debemos dar clic en **Archivo** y luego en **Preferencias**:_
 
 <p align="center">
+ <img width="353" alt="w1" src="https://user-images.githubusercontent.com/60987042/83696493-3b93c580-a5c2-11ea-9513-342ac9f8ebd2.PNG">
 </p>
 
 _7. Damos clic en **Añadir Repositorio**:_
 
 <p align="center">
+ <img width="722" alt="añadir" src="https://user-images.githubusercontent.com/60987042/83696537-4f3f2c00-a5c2-11ea-8f20-41cd1c3b62f7.PNG">
 </p>
 
 _8. Dando clic en examinar debemos buscar el archivo que tiene el nombre **repository.config**, el cual se encuentra dentro de la carpeta que se extrajo del instalador._
 
 <p align="center">
+ <img width="573" alt="repository-config" src="https://user-images.githubusercontent.com/60987042/83696565-5bc38480-a5c2-11ea-9243-bc11ba8b5c4b.PNG">
 </p>
 
 _9. Damos clic en **Ok** y despues en **Aceptar**, este proceso nos debe añadir el archivo de instalación al IBM IM._
 
-<p align="center">
-</p>
-
 _10. Ahora demos dar clic en **Aplicar** y luego en **Aceptar**, este proceso nos llevara de nueva al menu principal de IBM IM._
 
 <p align="center">
+ <img width="468" alt="Apli" src="https://user-images.githubusercontent.com/60987042/83696579-64b45600-a5c2-11ea-83de-2fcc05a0201a.PNG">
 </p>
 
 _11. El siguinete paso es dar clic en el Boton Intalar._
 
 <p align="center">
+ <img width="470" alt="clic-install" src="https://user-images.githubusercontent.com/60987042/83696602-7dbd0700-a5c2-11ea-8c92-6322a762faf1.PNG">
 </p>
 
 _12. Al completar el paso anterior se nos debe abrir una nueva ventana en la cual debemos seleccionar el paquete que queremos instalar en este caso es el de WebSphere Application Server Liberty, y al seleccionarlo debemos dar clic en **Siguiente**_
 
 <p align="center">
+ <img width="540" alt="was" src="https://user-images.githubusercontent.com/60987042/83696620-8dd4e680-a5c2-11ea-8091-228c27f70835.PNG">
 </p>
 
 _13. Al terminar el paso numero 12 de debe abrir una nueva ventana las cual nos indica los prerequisitos para la instalación en la cual tambien debemos dar clic en **Siguiente**._
@@ -162,20 +165,29 @@ _14. Ahora nos debe aparecer la ventana de **Terminos y Condiciones** a las cual
 _15. Luego vienen las ventanas de **ubicación** en la cual debemos elegir la ruta de instalación, **Caracteristicas** en la cual nos da un informa detallado del Software que vamos a instalar y por ultimo una ventana de resumen en la cual se nos debe habilitar el Boton de **Instalar**._
 
 <p align="center">
+ <img width="539" alt="resu" src="https://user-images.githubusercontent.com/60987042/83696648-9a593f00-a5c2-11ea-969c-d012b8b36f27.PNG">
 </p>
 
 
 _16. Al dar clic en **Instalar**, se va a iniciar este proceso el cual demora unos minutos, pero al terminar tendremos lista la instalación de WebSphere Application Server Liberty en nuestra maquina ubuntuy la forma de verificarlo es la siguiente:_
  
- _En una terminal de ubuntu debemos colocar el siguiente comando:_
+ _En una terminal de ubuntu debemos colocar los siguiente comandos en su orden:_
  
  ```
-sudo ./opt/IBM/WebSphere/Liberty/bin/productInfo version
+cd /opt/IBM/WebSphere/Liberty/bin/
+```
+```
+sudo ./productInfo version
 ```
 
-_Este comando nos dara una respuesta como la siguiente:_
-
+_Estos comandos nos daran una respuesta como la siguiente:_
 
 <p align="center">
+ <img width="493" alt="info" src="https://user-images.githubusercontent.com/60987042/83696687-af35d280-a5c2-11ea-80ac-d73e163b5c20.PNG">
 </p>
+
+## Autores ✒️
+
+_Equipo IBM Cloud Tech sales Colombia._
+
  
