@@ -80,3 +80,102 @@ _10.	Por ultimo debemos verificar si el Installation Manager de IBM quedo correc
 </p>
 
 ## Instalación de Websphere Application Server Liberty en la maquina ubuntu mediante el Installation Manager de IBM 📦
+
+#### Para la correcta instalación de WebSphere application Server Liberty en ubuntu debemos seguir los siguientes pasos:
+
+_1. Inicialmente debemos descargar el instalador del WAS Liberty, y lo podemos hacer desde el siguiente link:_
+```
+https://ibm.ent.box.com/file/664615612602
+```
+_2.	Debemos abrir una terminal, la cual se puede abrir mediante el siguiente comando:_
+
+```
+Crtl+Alt+T
+```
+<p align="center">
+<img width="551" alt="term" src="https://user-images.githubusercontent.com/60987042/83689785-45fb9280-a5b5-11ea-9474-639a35eaee67.PNG">
+</p>
+
+_3. Debemos dirigirnos a la capeta en la cual se descargo el instalador._
+
+```
+cd Desktop
+```
+ó
+```
+cd Descargas
+```
+
+_4.	Ahora debemos descomprimir el archivo que se descargo:_
+
+```
+unzip was.repo.19009.liberty.core.zip
+```
+
+_5. Despues de tener descomprimido el archivo de instalación, debemos abrir el Installation Manager de IBM y para esto ejecutamos en una terminal el siguiente comando :_
+
+```
+sudo ./opt/IBM/InstallationManager/eclipce/launcher
+```
+
+_6. Teniendo abierta la interfaz grafica del IBM IM debemos dar clic en **Archivo** y luego en **Preferencias**:_
+
+<p align="center">
+</p>
+
+_7. Damos clic en **Añadir Repositorio**:_
+
+<p align="center">
+</p>
+
+_8. Dando clic en examinar debemos buscar el archivo que tiene el nombre **repository.config**, el cual se encuentra dentro de la carpeta que se extrajo del instalador._
+
+<p align="center">
+</p>
+
+_9. Damos clic en **Ok** y despues en **Aceptar**, este proceso nos debe añadir el archivo de instalación al IBM IM._
+
+<p align="center">
+</p>
+
+_10. Ahora demos dar clic en **Aplicar** y luego en **Aceptar**, este proceso nos llevara de nueva al menu principal de IBM IM._
+
+<p align="center">
+</p>
+
+_11. El siguinete paso es dar clic en el Boton Intalar._
+
+<p align="center">
+</p>
+
+_12. Al completar el paso anterior se nos debe abrir una nueva ventana en la cual debemos seleccionar el paquete que queremos instalar en este caso es el de WebSphere Application Server Liberty, y al seleccionarlo debemos dar clic en **Siguiente**_
+
+<p align="center">
+</p>
+
+_13. Al terminar el paso numero 12 de debe abrir una nueva ventana las cual nos indica los prerequisitos para la instalación en la cual tambien debemos dar clic en **Siguiente**._
+
+
+_14. Ahora nos debe aparecer la ventana de **Terminos y Condiciones** a las cuales debemos darle **Aceptar** y dar clic en **Siguiente**._
+
+
+_15. Luego vienen las ventanas de **ubicación** en la cual debemos elegir la ruta de instalación, **Caracteristicas** en la cual nos da un informa detallado del Software que vamos a instalar y por ultimo una ventana de resumen en la cual se nos debe habilitar el Boton de **Instalar**._
+
+<p align="center">
+</p>
+
+
+_16. Al dar clic en **Instalar**, se va a iniciar este proceso el cual demora unos minutos, pero al terminar tendremos lista la instalación de WebSphere Application Server Liberty en nuestra maquina ubuntuy la forma de verificarlo es la siguiente:_
+ 
+ _En una terminal de ubuntu debemos colocar el siguiente comando:_
+ 
+ ```
+sudo ./opt/IBM/WebSphere/Liberty/bin/productInfo version
+```
+
+_Este comando nos dara una respuesta como la siguiente:_
+
+
+<p align="center">
+</p>
+ 
