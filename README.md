@@ -16,6 +16,24 @@ _1. Acceder a la plataforma de Skytap, para esto debemos acceder desde algun Bro
 ```
 https://cloud.skytap.com/
 ```
+_2. Ahora debemos realizar el login con nuestras credenciales._
+
+<p align="center">
+ <img width="956" alt="login" src="https://user-images.githubusercontent.com/60987042/83697833-9549bf00-a5c5-11ea-8fe6-d0b404d6028b.PNG">
+ </p>
+
+_3. Al estar en la pagina principal de Skytap debemos dirigirnos a la sección de Environments y estando ahí debemos elegir el Environment en cual queramos trabajar. _
+
+<p align="center">
+ <img width="474" alt="envi" src="https://user-images.githubusercontent.com/60987042/83697860-a1358100-a5c5-11ea-80cb-d7c9fa00a70a.PNG">
+ </p>
+
+_4. Ahora debemos hacer clic en la maquina que queremos trabajar_
+
+<p align="center">
+ <img width="949" alt="maquinas" src="https://user-images.githubusercontent.com/60987042/83697874-ab577f80-a5c5-11ea-8df4-c75cd91a394a.PNG">
+ </p>
+
 
 ## Instalación del IBM Instalation Manager: 🚀
 
