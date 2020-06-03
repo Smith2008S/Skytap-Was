@@ -3,12 +3,23 @@
 
 _Para el desarrollo de este Despliegue se tiene como base una maquina Ubuntu 18.04.1 que se encuentra alojada en Skytap._
 
+
+
 Indice
 
+## Login y acceso a la maquina ubuntu en Skytap:
+
+#### Para realizar de manera corracta el login y acceso a la maquina ubuntu debemos seguir los siguientes pasos:
+
+_1. Acceder a la plataforma de Skytap, para esto debemos acceder desde algun Browser al siguiente link:_
+
+```
+https://cloud.skytap.com/
+```
 
 ## Instalación del IBM Instalation Manager: 🚀
 
-#### Para la correcta instalación del IBM IM en ubuntu debemos seguir los siguientes pasos.
+#### Para la correcta instalación del IBM IM en ubuntu debemos seguir los siguientes pasos:
 
 _1. Inicialmente debemos descargar el instalador del IBM IM, y lo podemos hacer desde el siguiente link:_
 ```
