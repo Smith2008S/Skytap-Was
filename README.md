@@ -25,7 +25,7 @@ _2. Ahora debemos realizar el login con nuestras credenciales._
 _3. Al estar en la pagina principal de Skytap debemos dirigirnos a la sección de Environments y estando ahí debemos elegir el Environment en cual queramos trabajar._
 
 <p align="center">
- <img width="550" alt="envi" src="https://user-images.githubusercontent.com/60987042/83697860-a1358100-a5c5-11ea-80cb-d7c9fa00a70a.PNG">
+ <img width="850" alt="envi" src="https://user-images.githubusercontent.com/60987042/83697860-a1358100-a5c5-11ea-80cb-d7c9fa00a70a.PNG">
  </p>
 
 _4. Ahora debemos hacer clic en la maquina que queremos trabajar_
