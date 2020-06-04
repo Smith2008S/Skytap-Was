@@ -5,7 +5,11 @@ _Para el desarrollo de este Despliegue se tiene como base una maquina Ubuntu 18.
 
 
 
-Indice
+### Indice:
+1. [Login y acceso a la maquina ubuntu en Skytap](#Login-y-acceso-a-la-maquina-ubuntu-en-Skytap)
+2. [Instalación del IBM Instalation Manager](#Instalación-del-IBM-Instalation-Manager-)
+3. [Instalación de Websphere Application Server Liberty en la maquina ubuntu mediante el Installation Manager de IBM](#Instalación-de-Websphere-Application-Server-Liberty-en-la-maquina-ubuntu-mediante-el-Installation-Manager-de-IBM-)
+
 
 ## Login y acceso a la maquina ubuntu en Skytap:
 
